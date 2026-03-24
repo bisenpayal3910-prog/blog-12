@@ -176,3 +176,19 @@ to{
      .main2 a:hover{
         color: #e8c574;
      }
+
+
+     .image{
+         opacity: 0;
+    transform: translateX(100px);
+    animation: slideRight 1.5s ease forwards;
+}
+
+@keyframes slideRight{
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+     }
+   
+     
